@@ -1,0 +1,27 @@
+!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bootcamp Tsoft">
+    <test name="Modulo Vuelos">
+        <classes>
+            <class name="bctsoft.grupo4.testcases.TC_001_Vuelo_PaqueteIdayVuelta"></class>
+            <class name="bctsoft.grupo4.testcases.TC_002_Vuelo_PaqueteIda"></class>
+            <class name="bctsoft.grupo4.testcases.TC_003_Vuelo_LugarErroneo"></class>
+        </classes>
+    </test>
+
+    <test name="Modulo Hoteles">
+        <classes>
+            <class name="bctsoft.grupo4.testcases.TC_004_Hotel_HabitacionErronea"></class>
+            <class name="bctsoft.grupo4.testcases.TC_005_Hotel_NochesErroneo"></class>
+            <class name="bctsoft.grupo4.testcases.TC_006_Hotel_ReservaHastaDatos"></class>
+        </classes>
+
+    </test>
+
+    <test name="Modulo Traslado">
+        <classes>
+            <class name="bctsoft.grupo4.testcases.TC_010_Traslado_SinFecha"></class>
+            <class name="bctsoft.grupo4.testcases.TC_011_Traslado_LugarDeOrigenErroneo"></class>
+            <class name="bctsoft.grupo4.testcases.TC_012_Traslado_ValidarHastaPago"></class>
+        </classes>
+    </test>
+</suite>

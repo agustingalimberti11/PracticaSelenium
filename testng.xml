@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Practicas Automatizacion Falabella">
+    <test name="Navegador Chrome: Web">
+        <classes>
+            <class name="practicasFalabella.testcases.IngresoLatam"></class>
+            <class name="practicasFalabella.testcases.BuscarVuelo"></class>
+        </classes>
+    </test>
+</suite>
