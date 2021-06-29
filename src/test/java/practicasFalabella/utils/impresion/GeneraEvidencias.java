@@ -137,9 +137,6 @@ public class GeneraEvidencias {
     public static int screenshoot() throws InvalidFormatException, IOException, HeadlessException, AWTException {
         BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
         ImageIO.write(image, "jpg", new File("evidencia.jpg"));
-
-
-
         String imgFile = "evidencia.jpg";
         FileInputStream is = new FileInputStream(imgFile);
         run.addBreak();
